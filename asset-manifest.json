@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Contact-Manager/static/css/main.0cf99d47.css",
+    "main.js": "/React-Contact-Manager/static/js/main.36dc2797.js",
+    "static/media/no-found.gif": "/React-Contact-Manager/static/media/no-found.8a3fe9fd54d21c85d260.gif",
+    "static/media/man-taking-note.png": "/React-Contact-Manager/static/media/man-taking-note.578e1679689f39584d15.png",
+    "static/media/404.gif": "/React-Contact-Manager/static/media/404.b5c7043be53c20d7daf4.gif",
+    "static/media/loading-gif.gif": "/React-Contact-Manager/static/media/loading-gif.803f24369a085e35482e.gif",
+    "index.html": "/React-Contact-Manager/index.html",
+    "main.0cf99d47.css.map": "/React-Contact-Manager/static/css/main.0cf99d47.css.map",
+    "main.36dc2797.js.map": "/React-Contact-Manager/static/js/main.36dc2797.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cf99d47.css",
+    "static/js/main.36dc2797.js"
+  ]
+}
