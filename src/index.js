@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/React-Contact-Manager">
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route path="/contacts" element={<Contacts/>}/>
