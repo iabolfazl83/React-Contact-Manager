@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import './index.css';
 import App from './App';
 import Contacts from "./components/Contacts/Contacts";
@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter basename="/React-Contact-Manager">
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route path="/contacts" element={<Contacts/>}/>
@@ -26,6 +26,6 @@ root.render(
                     </main>
                 }/>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 );
